@@ -4,6 +4,10 @@
   "parametre": "Settings",
   "about": "About",
   "home": "Home",
+  "patient": "Patients",
+  "consultation": "Consultations",
+  
+  "rendezvous": "Booking",
   "addArticle": "Add New Article",
   "display": "Description",
   "value": "Value",

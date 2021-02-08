@@ -20,9 +20,10 @@ import { DataSummaryHeaderComponent } from './SharedComponents/data-summary-head
 import { DataListeHeaderComponent } from './SharedComponents/data-liste-header/data-liste-header.component';
 import { PatientComponent } from './patient/patient.component';
 import { ConsultationComponent } from './consultation/consultation.component';
+import { RendezVousComponent } from './rendez-vous/rendez-vous.component';
 
 @NgModule({
-  declarations: [AppComponent, EnumerationComponent, DataTableComponent, HomePageComponent, AboutComponent, ParametreComponent, DataSummaryComponent, DataSummaryHeaderComponent, DataListeHeaderComponent, PatientComponent, ConsultationComponent],
+  declarations: [AppComponent, EnumerationComponent, DataTableComponent, HomePageComponent, AboutComponent, ParametreComponent, DataSummaryComponent, DataSummaryHeaderComponent, DataListeHeaderComponent, PatientComponent, ConsultationComponent, RendezVousComponent],
   imports: [
     HttpClientModule,
     BrowserModule,
