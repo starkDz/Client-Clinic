@@ -18,9 +18,11 @@ import { ParametreComponent } from './parametre/parametre.component';
 import { DataSummaryComponent } from './SharedComponents/data-summary/data-summary.component';
 import { DataSummaryHeaderComponent } from './SharedComponents/data-summary-header/data-summary-header.component';
 import { DataListeHeaderComponent } from './SharedComponents/data-liste-header/data-liste-header.component';
+import { PatientComponent } from './patient/patient.component';
+import { ConsultationComponent } from './consultation/consultation.component';
 
 @NgModule({
-  declarations: [AppComponent, EnumerationComponent, DataTableComponent, HomePageComponent, AboutComponent, ParametreComponent, DataSummaryComponent, DataSummaryHeaderComponent, DataListeHeaderComponent],
+  declarations: [AppComponent, EnumerationComponent, DataTableComponent, HomePageComponent, AboutComponent, ParametreComponent, DataSummaryComponent, DataSummaryHeaderComponent, DataListeHeaderComponent, PatientComponent, ConsultationComponent],
   imports: [
     HttpClientModule,
     BrowserModule,
